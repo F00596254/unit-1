@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "4340de2e-9bad-4386-a9c7-4316bb63a713",
+		"name": "Node Rest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32464731"
+	},
+	"item": [
+		{
+			"name": "List Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8081/listUsers"
+			},
+			"response": []
+		},
+		{
+			"name": "Add User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8081/addUser"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Single User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8081/2"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8081/deleteUser"
+			},
+			"response": []
+		}
+	]
+}
